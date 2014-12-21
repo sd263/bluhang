@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ivwordapult"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="100dp" >
+
+    <ImageButton
+        android:id="@+id/ibplay"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/ibplay" />
+    
+        <ImageButton
+        android:id="@+id/ibmulti"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/ibmulti" />
+
+    <ImageButton
+        android:id="@+id/ibshop"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/ibshop" />
+
+        <ImageButton
+            android:id="@+id/iboptions"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/iboptions" />
+    
+</LinearLayout>

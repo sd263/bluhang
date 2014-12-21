@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ivbackground"
+    android:orientation="vertical"
+    android:weightSum="1.0" >
+
+    <TextView
+        android:id="@+id/tvword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight=".02"
+        android:gravity="center"
+        android:text="theword"
+        android:textColor="#C11"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivwinpic"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight=".35"
+        android:src="@drawable/ivvictorypic" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".50"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvcoinswon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Coins won"
+                android:textColor="#AAF"
+                android:textSize="34dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:id="@+id/ivAnswered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ivwordgot"
+                android:visibility="gone" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:id="@+id/ivFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ivfirst"
+                android:visibility="gone" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:id="@+id/ivStreak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ivwordstreak"
+                android:visibility="gone" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:id="@+id/ivPerfect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ivperfect"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".10"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/ibgoShop"
+            android:layout_margin="10dp"
+            android:layout_width="100dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ibgoshop" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="fill_parent" />
+
+        <ImageButton
+            android:id="@+id/ibgoMenu"
+            android:layout_margin="10dp"
+            android:layout_width="100dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ibmenu" />
+    </LinearLayout>
+
+</LinearLayout>

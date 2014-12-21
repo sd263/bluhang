@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">BluHang</string>
+    <string name="MultiplayerTitle">Bluetooth Multiplayer</string>
+    <string name="playerTwo">Waiting for player...</string>
+    <string name="Setter">Setter</string>
+    <string name="Guesser">Guesser</string>
+    <string name="Word">Word:</string>
+    <string name="WaitingForPlayer">Waiting for a player..</string>
+    <string name="StartGame">Start Game</string>
+    <string name="Hint">Hint:</string>
+    <string name="UserDevice">Your device:</string>
+    <string name="HostGame">Host a game</string>
+    <string name="Refresh">refresh</string>
+
+</resources>

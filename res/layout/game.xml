@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ivbackground"
+    android:orientation="vertical"
+    android:weightSum="1.0" >
+
+    <TextView
+        android:id="@+id/tvcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.10"
+        android:text="Category"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/ivcatapult"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.38"
+        android:paddingTop="10dp"
+        android:src="@drawable/ib8" />
+
+    <TextView
+        android:id="@+id/tvanswer"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.12"
+        android:text="asd"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/ibQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibq" />
+
+        <ImageButton
+            android:id="@+id/ibW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibw" />
+
+        <ImageButton
+            android:id="@+id/ibE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibe" />
+
+        <ImageButton
+            android:id="@+id/ibR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibr" />
+
+        <ImageButton
+            android:id="@+id/ibT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibt" />
+
+        <ImageButton
+            android:id="@+id/ibY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/iby" />
+
+        <ImageButton
+            android:id="@+id/ibU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibu" />
+
+        <ImageButton
+            android:id="@+id/ibI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibi" />
+
+        <ImageButton
+            android:id="@+id/ibO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibo" />
+
+        <ImageButton
+            android:id="@+id/ibP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/ibA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/iba" />
+
+        <ImageButton
+            android:id="@+id/ibS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibs" />
+
+        <ImageButton
+            android:id="@+id/ibD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibd" />
+
+        <ImageButton
+            android:id="@+id/ibF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibf" />
+
+        <ImageButton
+            android:id="@+id/ibG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibg" />
+
+        <ImageButton
+            android:id="@+id/ibH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibh" />
+
+        <ImageButton
+            android:id="@+id/ibJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibj" />
+
+        <ImageButton
+            android:id="@+id/ibK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibk" />
+
+        <ImageButton
+            android:id="@+id/ibL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibl" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/ibZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibz" />
+
+        <ImageButton
+            android:id="@+id/ibX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibx" />
+
+        <ImageButton
+            android:id="@+id/ibC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibc" />
+
+        <ImageButton
+            android:id="@+id/ibV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibv" />
+
+        <ImageButton
+            android:id="@+id/ibB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibb" />
+
+        <ImageButton
+            android:id="@+id/ibN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibn" />
+
+        <ImageButton
+            android:id="@+id/ibM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:src="@drawable/ibm" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/ibSurrender"
+            android:layout_width="wrap_content"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ibsurrender" />
+
+        <ImageButton
+            android:id="@+id/ibFreeLetter"
+            android:layout_width="wrap_content"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ibfreelet" />
+    </LinearLayout>
+
+</LinearLayout>
